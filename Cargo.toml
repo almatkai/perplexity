@@ -1,0 +1,15 @@
+[package]
+name = "tezbar-perplexity"
+version = "1.0.0"
+edition = "2021"
+license = "Apache-2.0 AND MIT"
+description = "Independent Rust Perplexity extension for Tezbar"
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "9f91afcc071c3f301414dc62b33cfeac7d89a0cf" }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+
+[dev-dependencies]
+tempfile = "3"
+uuid = { version = "1", features = ["v4"] }

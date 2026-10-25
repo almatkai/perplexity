@@ -1,0 +1,11 @@
+Perplexity independent Rust extension
+
+Rust adapters extracted from Tezbar commit
+fe71ca87f21ac4ff31505010c228f8abda0f2a89 (Copyright 2026 Almat, Apache-2.0).
+Modified: imports/context, typed shell RPC and standalone process entrypoint.
+
+Original Perplexity Raycast behavior: author third774, contributor sbertix.
+https://github.com/raycast/extensions/tree/master/extensions/perplexity
+Raycast extensions MIT notice is retained in licenses/raycast-extensions-MIT.txt.
+Perplexity logo is an upstream extension asset; its presence conveys no affiliation.
+Logo copied from Raycast extensions commit 1a7664e5b99b9228c26c2f807f1ad2dc1669899a.
